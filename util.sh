@@ -1,0 +1,1 @@
+getevent -pl | grep -B 3 'POWER' | grep -m1 'device'
